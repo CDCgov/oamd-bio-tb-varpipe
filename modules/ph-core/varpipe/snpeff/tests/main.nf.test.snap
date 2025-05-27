@@ -1,0 +1,111 @@
+{
+    "VARPIPE_SNPEFF vcf": {
+        "content": [
+            [
+                [
+                    {
+                        "id": "test"
+                    },
+                    "test.ann.vcf:md5,29548aed80468e270f36753d686b5c93"
+                ]
+            ],
+            [
+                [
+                    {
+                        "id": "test"
+                    },
+                    "test.genes.txt:md5,ff1958910bdccf60c4ef9d3edc4d77e6"
+                ]
+            ],
+            [
+                "versions.yml:md5,9c4c819c37488a08f516e9e6e10ae4c0"
+            ]
+        ],
+        "meta": {
+            "nf-test": "0.9.2",
+            "nextflow": "24.10.5"
+        },
+        "timestamp": "2025-05-16T10:43:56.889702038"
+    },
+    "VARPIPE_SNPEFF vcf -stub": {
+        "content": [
+            {
+                "0": [
+                    [
+                        {
+                            "id": "test"
+                        },
+                        "test.ann.vcf:md5,d41d8cd98f00b204e9800998ecf8427e"
+                    ]
+                ],
+                "1": [
+                    [
+                        {
+                            "id": "test"
+                        },
+                        "test.csv:md5,d41d8cd98f00b204e9800998ecf8427e"
+                    ]
+                ],
+                "2": [
+                    [
+                        {
+                            "id": "test"
+                        },
+                        "test.html:md5,d41d8cd98f00b204e9800998ecf8427e"
+                    ]
+                ],
+                "3": [
+                    [
+                        {
+                            "id": "test"
+                        },
+                        "test.genes.txt:md5,d41d8cd98f00b204e9800998ecf8427e"
+                    ]
+                ],
+                "4": [
+                    "versions.yml:md5,9c4c819c37488a08f516e9e6e10ae4c0"
+                ],
+                "genes_txt": [
+                    [
+                        {
+                            "id": "test"
+                        },
+                        "test.genes.txt:md5,d41d8cd98f00b204e9800998ecf8427e"
+                    ]
+                ],
+                "report": [
+                    [
+                        {
+                            "id": "test"
+                        },
+                        "test.csv:md5,d41d8cd98f00b204e9800998ecf8427e"
+                    ]
+                ],
+                "summary_html": [
+                    [
+                        {
+                            "id": "test"
+                        },
+                        "test.html:md5,d41d8cd98f00b204e9800998ecf8427e"
+                    ]
+                ],
+                "vcf": [
+                    [
+                        {
+                            "id": "test"
+                        },
+                        "test.ann.vcf:md5,d41d8cd98f00b204e9800998ecf8427e"
+                    ]
+                ],
+                "versions": [
+                    "versions.yml:md5,9c4c819c37488a08f516e9e6e10ae4c0"
+                ]
+            }
+        ],
+        "meta": {
+            "nf-test": "0.9.2",
+            "nextflow": "24.10.5"
+        },
+        "timestamp": "2025-05-16T10:44:04.644306083"
+    }
+}

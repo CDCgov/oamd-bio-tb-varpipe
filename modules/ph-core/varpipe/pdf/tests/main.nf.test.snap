@@ -1,0 +1,47 @@
+{
+    "varpipe pdf report [summary] -stub": {
+        "content": [
+            {
+                "0": [
+                    [
+                        {
+                            "id": "test"
+                        },
+                        "test_report.pdf:md5,d41d8cd98f00b204e9800998ecf8427e"
+                    ]
+                ],
+                "1": [
+                    "versions.yml:md5,ab080f45d92d50e9010184534d46f0c7"
+                ],
+                "report": [
+                    [
+                        {
+                            "id": "test"
+                        },
+                        "test_report.pdf:md5,d41d8cd98f00b204e9800998ecf8427e"
+                    ]
+                ],
+                "versions": [
+                    "versions.yml:md5,ab080f45d92d50e9010184534d46f0c7"
+                ]
+            }
+        ],
+        "meta": {
+            "nf-test": "0.9.2",
+            "nextflow": "24.10.6"
+        },
+        "timestamp": "2025-05-07T13:37:54.999508164"
+    },
+    "varpipe pdf report [summary]": {
+        "content": [
+            [
+                "versions.yml:md5,b2225a03d1f31d7a0958bd9de8431601"
+            ]
+        ],
+        "meta": {
+            "nf-test": "0.9.2",
+            "nextflow": "24.10.6"
+        },
+        "timestamp": "2025-05-07T13:37:47.959880705"
+    }
+}

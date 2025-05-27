@@ -1,0 +1,71 @@
+nextflow_process {
+
+    name "Test Process VARPIPE_SNPEFF"
+    script "../main.nf"
+    process "VARPIPE_SNPEFF"
+
+    tag "modules"
+    tag "modules_phcore"
+    tag "varpipe"
+    tag "varpipe/snpeff"
+
+    test("VARPIPE_SNPEFF vcf") {
+
+        when {
+            process {
+                """
+                // Prepare input data
+                input[0] = [
+                    [ id:'test' ], // meta map
+                    [ file(params.modules_testdata_base_path + '/genomics/tuberculosis/vcf/test.vcf.gz', checkIfExists: true) ]
+                ]
+                input[1] = "NC_000962"
+                input[2] = [
+                    [ id:'cache' ], // meta map
+                    [ ]
+                ]
+                """
+            }
+        }
+
+        then {
+            assertAll(
+                { assert process.success },
+                { assert snapshot(
+                    process.out.vcf,
+                    process.out.genes_txt,
+                    process.out.versions
+                ).match() }
+            )
+        }
+    }
+
+    test("VARPIPE_SNPEFF vcf -stub") {
+
+        options "-stub"
+
+        when {
+            process {
+                """
+                // Prepare input data
+                input[0] = [
+                    [ id:'test' ], // meta map
+                    [ file(params.modules_testdata_base_path + '/genomics/tuberculosis/vcf/test.vcf.gz', checkIfExists: true) ]
+                ]
+                input[1] = "NC_000962"
+                input[2] = [
+                    [ id:'cache' ], // meta map
+                    [ ]
+                ]
+                """
+            }
+        }
+
+        then {
+            assertAll(
+                { assert process.success },
+                { assert snapshot(process.out).match() }
+            )
+        }
+    }
+}

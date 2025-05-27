@@ -2,10 +2,145 @@
     "name": "CDCGov/oamdbiovarpipe",
     "homePage": "https://github.com/CDCGov/oamdbiovarpipe",
     "repos": {
+        "https://github.com/cdcent/oamd-bio-ph-core.git": {
+            "modules": {
+                "ph-core": {
+                    "bwa/index": {
+                        "branch": "master",
+                        "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
+                        "installed_by": ["modules"]
+                    },
+                    "cat/fastq": {
+                        "branch": "master",
+                        "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
+                        "installed_by": ["modules"]
+                    },
+                    "gatk4/filtermutectcalls": {
+                        "branch": "master",
+                        "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
+                        "installed_by": ["modules"]
+                    },
+                    "gatk4/leftalignandtrimvariants": {
+                        "branch": "master",
+                        "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
+                        "installed_by": ["modules"]
+                    },
+                    "gatk4/mutect2": {
+                        "branch": "master",
+                        "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
+                        "installed_by": ["modules"]
+                    },
+                    "picard/buildbamindex": {
+                        "branch": "master",
+                        "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
+                        "installed_by": ["modules"]
+                    },
+                    "picard/createsequencedictionary": {
+                        "branch": "master",
+                        "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
+                        "installed_by": ["modules"]
+                    },
+                    "picard/markduplicates": {
+                        "branch": "master",
+                        "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
+                        "installed_by": ["modules"]
+                    },
+                    "picard/samformatconverter": {
+                        "branch": "master",
+                        "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
+                        "installed_by": ["modules"]
+                    },
+                    "picard/sortsam": {
+                        "branch": "master",
+                        "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
+                        "installed_by": ["modules"]
+                    },
+                    "samtools/depth": {
+                        "branch": "master",
+                        "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
+                        "installed_by": ["modules"]
+                    },
+                    "samtools/faidx": {
+                        "branch": "master",
+                        "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
+                        "installed_by": ["modules"]
+                    },
+                    "samtools/view": {
+                        "branch": "master",
+                        "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
+                        "installed_by": ["modules"]
+                    },
+                    "trimmomatic": {
+                        "branch": "master",
+                        "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
+                        "installed_by": ["modules"]
+                    },
+                    "untar": {
+                        "branch": "master",
+                        "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
+                        "installed_by": ["modules"]
+                    },
+                    "varpipe/bwamem": {
+                        "branch": "master",
+                        "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
+                        "installed_by": ["modules"]
+                    },
+                    "varpipe/coverageanalysis": {
+                        "branch": "master",
+                        "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
+                        "installed_by": ["modules"]
+                    },
+                    "varpipe/createannotations": {
+                        "branch": "master",
+                        "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
+                        "installed_by": ["modules"]
+                    },
+                    "varpipe/interpretation": {
+                        "branch": "master",
+                        "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
+                        "installed_by": ["modules"]
+                    },
+                    "varpipe/lineage": {
+                        "branch": "master",
+                        "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
+                        "installed_by": ["modules"]
+                    },
+                    "varpipe/parseannotations": {
+                        "branch": "master",
+                        "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
+                        "installed_by": ["modules"]
+                    },
+                    "varpipe/pdf": {
+                        "branch": "master",
+                        "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
+                        "installed_by": ["modules"]
+                    },
+                    "varpipe/report": {
+                        "branch": "master",
+                        "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
+                        "installed_by": ["modules"]
+                    },
+                    "varpipe/snpeff": {
+                        "branch": "master",
+                        "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
+                        "installed_by": ["modules"]
+                    },
+                    "varpipe/structuralvariants": {
+                        "branch": "master",
+                        "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
+                        "installed_by": ["modules"]
+                    },
+                    "varpipe/tar": {
+                        "branch": "master",
+                        "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
+                        "installed_by": ["modules"]
+                    }
+                }
+            }
+        },
         "https://github.com/nf-core/modules.git": {
             "modules": {
-                "nf-core": {
-                }
+                "nf-core": {}
             },
             "subworkflows": {
                 "nf-core": {
