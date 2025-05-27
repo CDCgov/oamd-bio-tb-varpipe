@@ -12,7 +12,7 @@
 
 ## Introduction
 
-**CDCGov/oamdbiovarpipe** is a bioinformatics pipeline that contains a refactored version of the CDC analysis pipeline developed by the Division of TB Elimination to characterize WGS output.
+**CDCGov/oamdbiovarpipe** is a bioinformatics pipeline that contains a refactored version of the [CDC Varpipe-WGS pipeline](https://github.com/CDCgov/NCHHSTP-DTBE-Varpipe-WGS) originally developed by the Division of TB Elimination to perform data cleaning and analysis (typing and variant detection).
 
 <!-- TODO nf-core:
    Complete this sentence with a 2-3 sentence summary of what types of data the pipeline ingests, a brief overview of the
