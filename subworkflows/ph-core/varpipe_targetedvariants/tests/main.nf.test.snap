@@ -1,0 +1,17 @@
+{
+    "varpipe-targetedvariants subworkflow test": {
+        "content": [
+            [
+                "versions.yml:md5,23969efa7f438ab2e5f240d4976f0b63",
+                "versions.yml:md5,56c1fdda0802b96227ec466cc505db66",
+                "versions.yml:md5,b7abf576189e0b7eab9a7b6b8e2b25a4",
+                "versions.yml:md5,ce542c8748d34619de879623c04c5c16"
+            ]
+        ],
+        "meta": {
+            "nf-test": "0.9.2",
+            "nextflow": "24.10.5"
+        },
+        "timestamp": "2025-05-16T11:13:37.897967058"
+    }
+}

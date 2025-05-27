@@ -1,0 +1,89 @@
+{
+    "varpipe-processbam subworkflow test [paired-end]": {
+        "content": [
+            [
+                [
+                    {
+                        "id": "test",
+                        "single_end": false
+                    },
+                    "test_sdrcsm.bam:md5,f562cc57026ae08106532f19bcbd33cc"
+                ]
+            ],
+            [
+                [
+                    {
+                        "id": "test",
+                        "single_end": false
+                    },
+                    "test_sdrcsm.bai:md5,a426aaf0106f997bdf11f58a3dac165e"
+                ]
+            ],
+            [
+                [
+                    {
+                        "id": "test",
+                        "single_end": false
+                    },
+                    "test.tsv:md5,8d9da07d55e76f071e677e1279a77a5d"
+                ]
+            ],
+            [
+                [
+                    {
+                        "id": "test",
+                        "single_end": false
+                    },
+                    "ref2.fa.fai:md5,582b23a33b52d218af2cc8498b64ff95"
+                ]
+            ],
+            [
+                [
+                    {
+                        "id": "test",
+                        "single_end": false
+                    },
+                    "test.tsv:md5,8d9da07d55e76f071e677e1279a77a5d"
+                ]
+            ],
+            [
+                [
+                    {
+                        "id": "test",
+                        "single_end": false
+                    },
+                    "unmapped.bam:md5,116760ced138d18f1795b79cc428e07d"
+                ]
+            ],
+            [
+                [
+                    {
+                        "id": "test",
+                        "single_end": false
+                    },
+                    "mapped.bam:md5,f136094ff245b3ca7c05e86497773002"
+                ]
+            ],
+            [
+                "versions.yml:md5,10ae21f4f7a737b20b9574e225aeaa20",
+                "versions.yml:md5,350639575c0394c8e78968e0c6007009",
+                "versions.yml:md5,45bb2d30395ed69f648c69baeb5dcc2e",
+                "versions.yml:md5,4db4be4c0b1621826dcea5cca2ea17c8",
+                "versions.yml:md5,6ea3cd10017798ead3d683cc4b7fa43a",
+                "versions.yml:md5,79c73343fe03beb01b43e37ad1ce47fc",
+                "versions.yml:md5,7beb7a6d6bffb9c62c610e52d408d662",
+                "versions.yml:md5,7f23ce94093858f2d0e53abefe10a27f",
+                "versions.yml:md5,a7e4cd8225b048870876a878cea36355",
+                "versions.yml:md5,beb8d93b21029db660cd52f987463cfe",
+                "versions.yml:md5,c403ee43d832ca499cd97aa0ad2eb558",
+                "versions.yml:md5,cb02ee201290e0f3905178e6028010d1",
+                "versions.yml:md5,cb03c40f024e850a2096af3d53c6d054"
+            ]
+        ],
+        "meta": {
+            "nf-test": "0.9.2",
+            "nextflow": "25.04.1"
+        },
+        "timestamp": "2025-05-19T11:08:36.147239753"
+    }
+}

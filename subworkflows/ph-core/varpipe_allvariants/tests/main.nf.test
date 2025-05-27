@@ -1,0 +1,69 @@
+nextflow_workflow {
+    name "Test Subworkflow VARPIPE_ALLVARIANTS"
+    script "../main.nf"
+    workflow "VARPIPE_ALLVARIANTS"
+    config "./nextflow.config"
+
+    tag "subworkflows"
+    tag "subworkflows_phcore"
+    tag "subworkflows/varpipe_allvariants"
+    tag "gatk4/leftalignandtrimvariants"
+    tag "gatk4/mutect2"
+    tag "gatk4/filtermutectcalls"
+    tag "varpipe/snpeff"
+
+    test("varpipe-allvariants subworkflow test") {
+        when {
+            params {
+                outdir = "$outputDir"
+            }
+            workflow {
+                """
+                // Prepare input channels
+                input[0] = Channel.of(
+                    [
+                        [ id:'test' ],
+                        file(params.modules_testdata_base_path + "/genomics/tuberculosis/bam/test.bam", checkIfExists: true),
+                        file(params.modules_testdata_base_path + "/genomics/tuberculosis/bam/test.bai", checkIfExists: true),
+                        []
+                    ]
+                )
+
+                input[1] = Channel.of(
+                    [
+                        [ id:'test' ],
+                        file(params.modules_testdata_base_path + "/genomics/tuberculosis/genome/reference-index/ref2.fa.fai", checkIfExists: true)
+                    ]
+                )
+
+                input[2] = Channel.of(
+                    [
+                        [ id:'test' ],
+                        file(params.modules_testdata_base_path + "/genomics/tuberculosis/genome/reference-index/ref2.dict", checkIfExists: true)
+                    ]
+                )
+
+                input[3] = Channel.of(
+                    [
+                        [ id:'test' ],
+                        file(params.modules_testdata_base_path + "/genomics/tuberculosis/genome/kb/varpipe/ref2.fa", checkIfExists: true)
+                    ]
+                )
+                input[4] = 'NC_000962'
+                """
+            }
+        }
+
+        then {
+            assertAll(
+                { assert workflow.success },
+                { assert workflow.out.ann.size() > 0 },
+                { assert snapshot(
+                        workflow.out.versions
+                    ).match()
+                }
+            )
+        }
+    }
+
+}
