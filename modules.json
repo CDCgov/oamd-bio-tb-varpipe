@@ -8,212 +8,142 @@
                     "bwa/index": {
                         "branch": "master",
                         "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
-                        "installed_by": [
-                            "modules",
-                            "varpipe_processbam"
-                        ]
+                        "installed_by": ["modules", "varpipe_processbam"]
                     },
                     "cat/fastq": {
                         "branch": "master",
                         "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
-                        "installed_by": [
-                            "modules"
-                        ]
+                        "installed_by": ["modules"]
+                    },
+                    "clockwork/minimap2": {
+                        "branch": "master",
+                        "git_sha": "f3682b2510cc799a4aa009c7c76c53f8f4444b27",
+                        "installed_by": ["modules"]
+                    },
+                    "clockwork/removecontam": {
+                        "branch": "master",
+                        "git_sha": "f3682b2510cc799a4aa009c7c76c53f8f4444b27",
+                        "installed_by": ["modules"]
                     },
                     "gatk4/filtermutectcalls": {
                         "branch": "master",
                         "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
-                        "installed_by": [
-                            "modules",
-                            "varpipe_allvariants",
-                            "varpipe_targetedvariants"
-                        ]
+                        "installed_by": ["modules", "varpipe_allvariants", "varpipe_targetedvariants"]
                     },
                     "gatk4/leftalignandtrimvariants": {
                         "branch": "master",
                         "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
-                        "installed_by": [
-                            "modules",
-                            "varpipe_allvariants",
-                            "varpipe_targetedvariants"
-                        ]
+                        "installed_by": ["modules", "varpipe_allvariants", "varpipe_targetedvariants"]
                     },
                     "gatk4/mutect2": {
                         "branch": "master",
                         "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
-                        "installed_by": [
-                            "modules",
-                            "varpipe_allvariants",
-                            "varpipe_targetedvariants"
-                        ]
+                        "installed_by": ["modules", "varpipe_allvariants", "varpipe_targetedvariants"]
                     },
                     "picard/buildbamindex": {
                         "branch": "master",
                         "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
-                        "installed_by": [
-                            "modules",
-                            "varpipe_processbam"
-                        ]
+                        "installed_by": ["modules", "varpipe_processbam"]
                     },
                     "picard/createsequencedictionary": {
                         "branch": "master",
                         "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
-                        "installed_by": [
-                            "modules",
-                            "varpipe_processbam"
-                        ]
+                        "installed_by": ["modules", "varpipe_processbam"]
                     },
                     "picard/markduplicates": {
                         "branch": "master",
                         "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
-                        "installed_by": [
-                            "modules",
-                            "varpipe_processbam"
-                        ]
+                        "installed_by": ["modules", "varpipe_processbam"]
                     },
                     "picard/samformatconverter": {
                         "branch": "master",
                         "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
-                        "installed_by": [
-                            "modules",
-                            "varpipe_processbam"
-                        ]
+                        "installed_by": ["modules", "varpipe_processbam"]
                     },
                     "picard/sortsam": {
                         "branch": "master",
                         "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
-                        "installed_by": [
-                            "modules",
-                            "varpipe_processbam"
-                        ]
+                        "installed_by": ["modules", "varpipe_processbam"]
                     },
                     "samtools/depth": {
                         "branch": "master",
                         "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
-                        "installed_by": [
-                            "modules",
-                            "varpipe_processbam"
-                        ]
+                        "installed_by": ["modules", "varpipe_processbam"]
                     },
                     "samtools/faidx": {
                         "branch": "master",
                         "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
-                        "installed_by": [
-                            "modules",
-                            "varpipe_processbam"
-                        ]
+                        "installed_by": ["modules", "varpipe_processbam"]
                     },
                     "samtools/view": {
                         "branch": "master",
                         "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
-                        "installed_by": [
-                            "modules",
-                            "varpipe_processbam"
-                        ]
+                        "installed_by": ["modules", "varpipe_processbam"]
                     },
                     "trimmomatic": {
                         "branch": "master",
                         "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
-                        "installed_by": [
-                            "modules",
-                            "varpipe_core"
-                        ]
+                        "installed_by": ["modules", "varpipe_core"]
                     },
                     "untar": {
                         "branch": "master",
                         "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
-                        "installed_by": [
-                            "modules"
-                        ]
+                        "installed_by": ["modules"]
                     },
                     "varpipe/bwamem": {
                         "branch": "master",
                         "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
-                        "installed_by": [
-                            "modules",
-                            "varpipe_processbam"
-                        ]
+                        "installed_by": ["modules", "varpipe_processbam"]
                     },
                     "varpipe/coverageanalysis": {
                         "branch": "master",
                         "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
-                        "installed_by": [
-                            "modules",
-                            "varpipe_core"
-                        ]
+                        "installed_by": ["modules", "varpipe_core"]
                     },
                     "varpipe/createannotations": {
                         "branch": "master",
                         "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
-                        "installed_by": [
-                            "modules",
-                            "varpipe_core"
-                        ]
+                        "installed_by": ["modules", "varpipe_core"]
                     },
                     "varpipe/interpretation": {
                         "branch": "master",
                         "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
-                        "installed_by": [
-                            "modules",
-                            "varpipe_core"
-                        ]
+                        "installed_by": ["modules", "varpipe_core"]
                     },
                     "varpipe/lineage": {
                         "branch": "master",
                         "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
-                        "installed_by": [
-                            "modules",
-                            "varpipe_core"
-                        ]
+                        "installed_by": ["modules", "varpipe_core"]
                     },
                     "varpipe/parseannotations": {
                         "branch": "master",
                         "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
-                        "installed_by": [
-                            "modules",
-                            "varpipe_core"
-                        ]
+                        "installed_by": ["modules", "varpipe_core"]
                     },
                     "varpipe/pdf": {
                         "branch": "master",
                         "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
-                        "installed_by": [
-                            "modules",
-                            "varpipe_core"
-                        ]
+                        "installed_by": ["modules", "varpipe_core"]
                     },
                     "varpipe/report": {
                         "branch": "master",
                         "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
-                        "installed_by": [
-                            "modules",
-                            "varpipe_core"
-                        ]
+                        "installed_by": ["modules", "varpipe_core"]
                     },
                     "varpipe/snpeff": {
                         "branch": "master",
                         "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
-                        "installed_by": [
-                            "modules",
-                            "varpipe_allvariants",
-                            "varpipe_targetedvariants"
-                        ]
+                        "installed_by": ["modules", "varpipe_allvariants", "varpipe_targetedvariants"]
                     },
                     "varpipe/structuralvariants": {
                         "branch": "master",
                         "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
-                        "installed_by": [
-                            "modules",
-                            "varpipe_core"
-                        ]
+                        "installed_by": ["modules", "varpipe_core"]
                     },
                     "varpipe/tar": {
                         "branch": "master",
                         "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
-                        "installed_by": [
-                            "modules",
-                            "varpipe_core"
-                        ]
+                        "installed_by": ["modules", "varpipe_core"]
                     }
                 }
             },
@@ -222,31 +152,22 @@
                     "varpipe_allvariants": {
                         "branch": "master",
                         "git_sha": "2a24330764c8b165715ad0e2fd3cc1ffd9c6ea0e",
-                        "installed_by": [
-                            "subworkflows",
-                            "varpipe_core"
-                        ]
+                        "installed_by": ["subworkflows", "varpipe_core"]
                     },
                     "varpipe_core": {
                         "branch": "master",
                         "git_sha": "d68e8c4727ff84ee7fce4906c791c0163fa3cabd",
-                        "installed_by": [
-                            "subworkflows"
-                        ]
+                        "installed_by": ["subworkflows"]
                     },
                     "varpipe_processbam": {
                         "branch": "master",
                         "git_sha": "8f02ede09a9749eb1150472a58e8f1b0a06026be",
-                        "installed_by": [
-                            "varpipe_core"
-                        ]
+                        "installed_by": ["varpipe_core"]
                     },
                     "varpipe_targetedvariants": {
                         "branch": "master",
                         "git_sha": "2a24330764c8b165715ad0e2fd3cc1ffd9c6ea0e",
-                        "installed_by": [
-                            "varpipe_core"
-                        ]
+                        "installed_by": ["varpipe_core"]
                     }
                 }
             }
@@ -260,23 +181,17 @@
                     "utils_nextflow_pipeline": {
                         "branch": "master",
                         "git_sha": "c2b22d85f30a706a3073387f30380704fcae013b",
-                        "installed_by": [
-                            "subworkflows"
-                        ]
+                        "installed_by": ["subworkflows"]
                     },
                     "utils_nfcore_pipeline": {
                         "branch": "master",
                         "git_sha": "51ae5406a030d4da1e49e4dab49756844fdd6c7a",
-                        "installed_by": [
-                            "subworkflows"
-                        ]
+                        "installed_by": ["subworkflows"]
                     },
                     "utils_nfschema_plugin": {
                         "branch": "master",
                         "git_sha": "2fd2cd6d0e7b273747f32e465fdc6bcc3ae0814e",
-                        "installed_by": [
-                            "subworkflows"
-                        ]
+                        "installed_by": ["subworkflows"]
                     }
                 }
             }
